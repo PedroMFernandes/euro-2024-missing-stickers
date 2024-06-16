@@ -8614,15 +8614,20 @@ $(document).ready(function() {
         const generatedCodesOutput = result.spareCodes.join(', ');
 
         // Display results in the textareas
-        $missingStickersTextarea.val(missingCodesOutput);
-        $spareStickersTextarea.val(generatedCodesOutput);
+        if (result.missingCodes.length) {
+            $missingStickersTextarea.val(missingCodesOutput);
+            $copyMissingBtn.text(`Copy missing stickers (${result.missingCodes.length})`);
+        }
+
+        if (result.spareCodes.length) {
+            $spareStickersTextarea.val(generatedCodesOutput);
+            $copySpareBtn.text(`Copy spare stickers (${result.spareCodes.length})`);
+        }
     });
 
     // Copy to clipboard
     $copyMissingBtn.on('click', function() {
         const textToCopy = $missingStickersTextarea.val();
-
-        console.log(textToCopy);
         
         // Using navigator clipboard API to copy text
         navigator.clipboard.writeText(textToCopy)
@@ -8709,10 +8714,10 @@ $(document).ready(function() {
     function generateMissingAndSpareCodes(inputText, generateWithNumber = true) {
         // Split input by commas to get an array of codes
         const codes = inputText.split(',').map(code => {
-            const trimmedCode = code.trim();
+            const trimmedCode = code.trim().toLowerCase();
             const match = trimmedCode.match(/^(.*?)(\(\d+\))?$/); // Match code with optional (number)
             if (match) {
-                const baseCode = match[1].trim();
+                const baseCode = match[1].trim().toLowerCase();
                 const numberPart = match[2] || ''; // Get (number) or an empty string if not present
                 return { original: trimmedCode, baseCode: baseCode, numberPart: numberPart };
             } else {
@@ -8728,7 +8733,7 @@ $(document).ready(function() {
 
         // Check each code from input against the complete list
         stickersChecklist.forEach(item => {
-            const found = codes.find(code => code.baseCode === item.code);
+            const found = codes.find(code => code.baseCode === item.code.toLocaleLowerCase());
             if (!found) {
                 missingCodes.push(item.code);
             }
