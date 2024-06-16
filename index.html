@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topps Euro 2024 Missing Stickers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="my-stickers-container">
+            <textarea id="my-stickers" placeholder="Enter your full stickers collection..."></textarea>
+            <div class="button-container">
+                <button id="generate-missing-stickers">Generate Missing and Spare Stickers</button>
+                <button id="trade-with-friend">Trade with friend</button>
+            </div>
+        </div>
+        <div class="trade-with-friend-container" style="display: none;">
+            <textarea id="friend-stickers" placeholder="Enter your friend's full stickers collection..."></textarea>
+            <div class="button-container" style="margin-bottom: 1rem;">
+                <button id="generate-trade-with-friend">Trade</button>
+            </div>
+            <textarea id="trade-friend-offer" placeholder="You offer..." disabled></textarea>
+            <div class="button-container" style="margin-bottom: 1rem;">
+                <button id="copy-offer-stickers">Copy stickers you offer</button>
+            </div>
+            <textarea id="trade-friend-need" placeholder="You need..." disabled></textarea>
+            <div class="button-container">
+                <button id="copy-need-stickers">Copy stickers you need</button>
+            </div>
+        </div>
+        <div class="missing-stickers-container">
+            <textarea id="missing-stickers" placeholder="Your missing stickers will appear here..." disabled style="height: 165px;"></textarea>
+            <div class="button-container">
+                <button id="copy-missing-stickers">Copy missing stickers</button>
+            </div>
+        </div>
+        <div class="spare-stickers-container">
+            <textarea id="spare-stickers" placeholder="Your spare stickers will appear here..." disabled style="height: 165px;"></textarea>
+            <div class="button-container">
+                <button id="copy-spare-stickers">Copy spare stickers</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
