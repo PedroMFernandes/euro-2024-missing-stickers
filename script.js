@@ -8569,6 +8569,4377 @@ const stickersChecklist = [
     }
 ];
 
+const stickersChecklistWithoutRarity = [
+    {
+        "code": "TOPPS1",
+        "title": "Topps Logo",
+        "section": "Introduction",
+        "type": "-"
+    },
+    {
+        "code": "UEFA1",
+        "title": "UEFA Euro 2024 Logo",
+        "section": "Introduction",
+        "type": "-"
+    },
+    {
+        "code": "UEFA2",
+        "title": "Matchball",
+        "section": "Introduction",
+        "type": "-"
+    },
+    {
+        "code": "UEFA3",
+        "title": "Corporate Sticker",
+        "section": "Introduction",
+        "type": "-"
+    },
+    {
+        "code": "EURO1",
+        "title": "Trophy",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "foil"
+    },
+    {
+        "code": "EURO2",
+        "title": "Köln",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO3",
+        "title": "Dortmund",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO4",
+        "title": "Düsseldorf",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO5",
+        "title": "Frankfurt",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO6",
+        "title": "Gelsenkirchen",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO7",
+        "title": "Hamburg",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO8",
+        "title": "Leipzig",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO9",
+        "title": "München",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO10",
+        "title": "Stuttgart",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "EURO11",
+        "title": "Berlin",
+        "section": "Host of the UEFA Euro 2024",
+        "type": "-"
+    },
+    {
+        "code": "GA1",
+        "title": "Overview1",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "GA2",
+        "title": "Overview2",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "GER-P1",
+        "title": "Germany Landmark1",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "GER-P2",
+        "title": "Germany Landmark2",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SCO-P1",
+        "title": "Scotland Landmark1",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SCO-P2",
+        "title": "Scotland Landmark2",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "HUN-P1",
+        "title": "Hungary Landmark1",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "HUN-P2",
+        "title": "Hungary Landmark2",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SUI-P1",
+        "title": "Switzerland Landmark1",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SUI-P2",
+        "title": "Switzerland Landmark2",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "GER-PTW",
+        "title": "Jamal Musiala",
+        "section": "Group A",
+        "type": "foil"
+    },
+    {
+        "code": "GER-SP",
+        "title": "Leroy Sané",
+        "section": "Group A",
+        "type": "gold"
+    },
+    {
+        "code": "GER-SP-s",
+        "title": "Leroy Sané",
+        "section": "Group A",
+        "type": "gold signature"
+    },
+    {
+        "code": "GER-TOP1",
+        "title": "Thomas Müller",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "GER-TOP2",
+        "title": "Ilkay Gündogan",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SCO-PTW",
+        "title": "Billy Gilmour",
+        "section": "Group A",
+        "type": "foil"
+    },
+    {
+        "code": "SCO-SP",
+        "title": "Scott McTominay",
+        "section": "Group A",
+        "type": "gold"
+    },
+    {
+        "code": "SCO-SP-s",
+        "title": "Scott McTominay",
+        "section": "Group A",
+        "type": "gold signature"
+    },
+    {
+        "code": "SCO-TOP1",
+        "title": "John McGinn",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SCO-TOP2",
+        "title": "Ryan Porteous",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "HUN-PTW",
+        "title": "Milos Kerkez",
+        "section": "Group A",
+        "type": "foil"
+    },
+    {
+        "code": "HUN-SP",
+        "title": "Willi Orbán",
+        "section": "Group A",
+        "type": "gold"
+    },
+    {
+        "code": "HUN-SP-s",
+        "title": "Willi Orbán",
+        "section": "Group A",
+        "type": "gold signature"
+    },
+    {
+        "code": "HUN-TOP1",
+        "title": "Martin Ádám",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "HUN-TOP2",
+        "title": "Ádám Nagy",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SUI-PTW",
+        "title": "Fabian Rieder",
+        "section": "Group A",
+        "type": "foil"
+    },
+    {
+        "code": "SUI-SP",
+        "title": "Noah Okafor",
+        "section": "Group A",
+        "type": "gold"
+    },
+    {
+        "code": "SUI-SP-s",
+        "title": "Noah Okafor",
+        "section": "Group A",
+        "type": "gold signature"
+    },
+    {
+        "code": "SUI-TOP1",
+        "title": "Nico Elvedi",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "SUI-TOP2",
+        "title": "Djibril Sow",
+        "section": "Group A",
+        "type": "-"
+    },
+    {
+        "code": "GER1",
+        "title": "Emblem",
+        "section": "Germany",
+        "type": "foil"
+    },
+    {
+        "code": "GER2",
+        "title": "Ilkay Gündogan",
+        "section": "Germany",
+        "type": "foil"
+    },
+    {
+        "code": "GER3",
+        "title": "Julian Brandt",
+        "section": "Germany",
+        "type": "foil"
+    },
+    {
+        "code": "GER4",
+        "title": "Thilo Kehrer",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER5",
+        "title": "Nico Schlotterbeck",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER6",
+        "title": "Benjamin Henrichs",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER7",
+        "title": "Malick Thiaw",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER8",
+        "title": "Robin Gosens",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER9",
+        "title": "Niklas Süle",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER10",
+        "title": "Joshua Kimmich",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER11",
+        "title": "Jamal Musiala",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER12",
+        "title": "Mario Götze",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER13",
+        "title": "Emre Can",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER14",
+        "title": "Timo Werner",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER15",
+        "title": "Leroy Sané",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER16",
+        "title": "Thomas Müller",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER17",
+        "title": "Niclas Füllkrug",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER18",
+        "title": "Karim Adeyemi",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER19",
+        "title": "Oliver Kahn",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER20",
+        "title": "Bastian Schweinsteiger",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "GER21",
+        "title": "Lothar Matthäus",
+        "section": "Germany",
+        "type": "-"
+    },
+    {
+        "code": "SCO1",
+        "title": "Emblem",
+        "section": "Scotland",
+        "type": "foil"
+    },
+    {
+        "code": "SCO2",
+        "title": "Andrew Robertson",
+        "section": "Scotland",
+        "type": "foil"
+    },
+    {
+        "code": "SCO3",
+        "title": "Ché Adams",
+        "section": "Scotland",
+        "type": "foil"
+    },
+    {
+        "code": "SCO4",
+        "title": "Angus Gunn",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO5",
+        "title": "Grant Hanley",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO6",
+        "title": "Jack Hendry",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO7",
+        "title": "Liam Cooper",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO8",
+        "title": "Nathan Patterson",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO9",
+        "title": "Ryan Porteous",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO10",
+        "title": "Aaron Hickey",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO11",
+        "title": "Kieran Tierney",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO12",
+        "title": "Callum McGregor",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO13",
+        "title": "Stuart Armstrong",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO14",
+        "title": "Billy Gilmour",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO15",
+        "title": "John McGinn",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO16",
+        "title": "Scott McTominay",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO17",
+        "title": "Lewis Ferguson",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO18",
+        "title": "Kenny McLean",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO19",
+        "title": "Ryan Jack",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO20",
+        "title": "Lyndon Dykes",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "SCO21",
+        "title": "Ryan Christie",
+        "section": "Scotland",
+        "type": "-"
+    },
+    {
+        "code": "HUN1",
+        "title": "Emblem",
+        "section": "Hungary",
+        "type": "foil"
+    },
+    {
+        "code": "HUN2",
+        "title": "Dominik Szoboszlai",
+        "section": "Hungary",
+        "type": "foil"
+    },
+    {
+        "code": "HUN3",
+        "title": "Callum Styles",
+        "section": "Hungary",
+        "type": "foil"
+    },
+    {
+        "code": "HUN4",
+        "title": "Dénes Dibusz",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN5",
+        "title": "Ádám Lang",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN6",
+        "title": "Attila Szalai",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN7",
+        "title": "Milos Kerkez",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN8",
+        "title": "Willi Orbán",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN9",
+        "title": "Endre Botka",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN10",
+        "title": "Loic Nego",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN11",
+        "title": "Bendegúz Bolla",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN12",
+        "title": "Ádám Nagy",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN13",
+        "title": "Zsolt Kalmár",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN14",
+        "title": "Dániel Gazdag",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN15",
+        "title": "Mihály Kata",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN16",
+        "title": "László Kleinheisler",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN17",
+        "title": "Barnabás Varga",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN18",
+        "title": "Roland Sallai",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN19",
+        "title": "Kevin Csoboth",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN20",
+        "title": "András Nemeth",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "HUN21",
+        "title": "Martin Ádám",
+        "section": "Hungary",
+        "type": "-"
+    },
+    {
+        "code": "SUI1",
+        "title": "Emblem",
+        "section": "Switzerland",
+        "type": "foil"
+    },
+    {
+        "code": "SUI2",
+        "title": "Granit Xhaka",
+        "section": "Switzerland",
+        "type": "foil"
+    },
+    {
+        "code": "SUI3",
+        "title": "Xherdan Shaqiri",
+        "section": "Switzerland",
+        "type": "foil"
+    },
+    {
+        "code": "SUI4",
+        "title": "Yann Sommer",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI5",
+        "title": "Silvan Widmer",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI6",
+        "title": "Manuel Akanji",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI7",
+        "title": "Ricardo Rodríguez",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI8",
+        "title": "Nico Elvedi",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI9",
+        "title": "Fabian Schär",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI10",
+        "title": "Edimilson Fernandes",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI11",
+        "title": "Michel Aebischer",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI12",
+        "title": "Denis Zakaria",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI13",
+        "title": "Remo Freuler",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI14",
+        "title": "Fabian Rieder",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI15",
+        "title": "Djibril Sow",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI16",
+        "title": "Filip Ugrinic",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI17",
+        "title": "Dan Ndoye",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI18",
+        "title": "Ruben Vargas",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI19",
+        "title": "Zeki Amdouni",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI20",
+        "title": "Breel Embolo",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "SUI21",
+        "title": "Noah Okafor",
+        "section": "Switzerland",
+        "type": "-"
+    },
+    {
+        "code": "GB1",
+        "title": "Overview1",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "GB2",
+        "title": "Overview2",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ESP-P1",
+        "title": "Spain Landmark1",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ESP-P2",
+        "title": "Spain Landmark2",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "CRO-P1",
+        "title": "Croatia Landmark1",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "CRO-P2",
+        "title": "Croatia Landmark2",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ITA-P1",
+        "title": "Italy Landmark1",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ITA-P2",
+        "title": "Italy Landmark2",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ALB-P1",
+        "title": "Albania Landmark1",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ALB-P2",
+        "title": "Albania Landmark2",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ESP-PTW",
+        "title": "Lamine Yamal",
+        "section": "Group B",
+        "type": "foil"
+    },
+    {
+        "code": "ESP-SP",
+        "title": "Rodri",
+        "section": "Group B",
+        "type": "gold"
+    },
+    {
+        "code": "ESP-SP-s",
+        "title": "Rodri",
+        "section": "Group B",
+        "type": "gold signature"
+    },
+    {
+        "code": "ESP-TOP1",
+        "title": "Ferran Torres",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ESP-TOP2",
+        "title": "Pedri",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "CRO-PTW",
+        "title": "Joško Gvardiol",
+        "section": "Group B",
+        "type": "foil"
+    },
+    {
+        "code": "CRO-SP",
+        "title": "Mateo Kovačić",
+        "section": "Group B",
+        "type": "gold"
+    },
+    {
+        "code": "CRO-SP-s",
+        "title": "Mateo Kovačić",
+        "section": "Group B",
+        "type": "gold signature"
+    },
+    {
+        "code": "CRO-TOP1",
+        "title": "Andrej Kramarić",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "CRO-TOP2",
+        "title": "Ivan Perišić",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ITA-PTW",
+        "title": "Wilfried Gnonto",
+        "section": "Group B",
+        "type": "foil"
+    },
+    {
+        "code": "ITA-SP",
+        "title": "Federico Chiesa",
+        "section": "Group B",
+        "type": "gold"
+    },
+    {
+        "code": "ITA-SP-s",
+        "title": "Federico Chiesa",
+        "section": "Group B",
+        "type": "gold signature"
+    },
+    {
+        "code": "ITA-TOP1",
+        "title": "Ciro Immobile",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ITA-TOP2",
+        "title": "Federico Dimarco",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ALB-PTW",
+        "title": "Armando Broja",
+        "section": "Group B",
+        "type": "foil"
+    },
+    {
+        "code": "ALB-SP",
+        "title": "Elseid Hysaj",
+        "section": "Group B",
+        "type": "gold"
+    },
+    {
+        "code": "ALB-SP-s",
+        "title": "Elseid Hysaj",
+        "section": "Group B",
+        "type": "gold signature"
+    },
+    {
+        "code": "ALB-TOP1",
+        "title": "Jasir Asani",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ALB-TOP2",
+        "title": "Kristjan Asllani",
+        "section": "Group B",
+        "type": "-"
+    },
+    {
+        "code": "ESP1",
+        "title": "Emblem",
+        "section": "Spain",
+        "type": "foil"
+    },
+    {
+        "code": "ESP2",
+        "title": "Álvaro Morata",
+        "section": "Spain",
+        "type": "foil"
+    },
+    {
+        "code": "ESP3",
+        "title": "Dani Olmo",
+        "section": "Spain",
+        "type": "foil"
+    },
+    {
+        "code": "ESP4",
+        "title": "Unai Simón",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP5",
+        "title": "César Azpilicueta",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP6",
+        "title": "Pedro Porro",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP7",
+        "title": "Alejandro Balde",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP8",
+        "title": "Robin Le Normand",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP9",
+        "title": "Pau Torres",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP10",
+        "title": "Aymeric Laporte",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP11",
+        "title": "Gavi",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP12",
+        "title": "Pedri",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP13",
+        "title": "Rodri",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP14",
+        "title": "Fabián Ruiz",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP15",
+        "title": "Nico Williams",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP16",
+        "title": "Mikel Oyarzabal",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP17",
+        "title": "Marco Asensio",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP18",
+        "title": "Yeremy Pino",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP19",
+        "title": "Lamine Yamal",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP20",
+        "title": "Ansu Fati",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "ESP21",
+        "title": "Ferran Torres",
+        "section": "Spain",
+        "type": "-"
+    },
+    {
+        "code": "CRO1",
+        "title": "Emblem",
+        "section": "Croatia",
+        "type": "foil"
+    },
+    {
+        "code": "CRO2",
+        "title": "Luka Modrić",
+        "section": "Croatia",
+        "type": "foil"
+    },
+    {
+        "code": "CRO3",
+        "title": "Mateo Kovačić",
+        "section": "Croatia",
+        "type": "foil"
+    },
+    {
+        "code": "CRO4",
+        "title": "Dominik Livaković",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO5",
+        "title": "Josip Stanišić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO6",
+        "title": "Martin Erlić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO7",
+        "title": "Josip Šutalo",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO8",
+        "title": "Borna Sosa",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO9",
+        "title": "Joško Gvardiol",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO10",
+        "title": "Domagoj Vida",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO11",
+        "title": "Josip Juranović",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO12",
+        "title": "Lovro Majer",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO13",
+        "title": "Marcelo Brozović",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO14",
+        "title": "Ivan Perišić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO15",
+        "title": "Mario Pašalić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO16",
+        "title": "Luka Ivanušec",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO17",
+        "title": "Luka Sučić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO18",
+        "title": "Nikola Vlašić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO19",
+        "title": "Mislav Oršić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO20",
+        "title": "Andrej Kramarić",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "CRO21",
+        "title": "Bruno Petković",
+        "section": "Croatia",
+        "type": "-"
+    },
+    {
+        "code": "ITA1",
+        "title": "Emblem",
+        "section": "Italy",
+        "type": "foil"
+    },
+    {
+        "code": "ITA2",
+        "title": "Leonardo Bonucci",
+        "section": "Italy",
+        "type": "foil"
+    },
+    {
+        "code": "ITA3",
+        "title": "Jorginho",
+        "section": "Italy",
+        "type": "foil"
+    },
+    {
+        "code": "ITA4",
+        "title": "Gianluigi Donnarumma",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA5",
+        "title": "Leonardo Spinazzola",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA6",
+        "title": "Francesco Acerbi",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA7",
+        "title": "Emerson Palmieri",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA8",
+        "title": "Giorgio Scalvini",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA9",
+        "title": "Alessandro Bastoni",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA10",
+        "title": "Federico Dimarco",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA11",
+        "title": "Gianluca Mancini",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA12",
+        "title": "Destiny Udogie",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA13",
+        "title": "Davide Frattesi",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA14",
+        "title": "Matteo Pessina",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA15",
+        "title": "Marco Verratti",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA16",
+        "title": "Manuel Locatelli",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA17",
+        "title": "Bryan Cristante",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA18",
+        "title": "Gianluca Scamacca",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA19",
+        "title": "Federico Chiesa",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA20",
+        "title": "Ciro Immobile",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ITA21",
+        "title": "Wilfried Gnonto",
+        "section": "Italy",
+        "type": "-"
+    },
+    {
+        "code": "ALB1",
+        "title": "Emblem",
+        "section": "Albania",
+        "type": "foil"
+    },
+    {
+        "code": "ALB2",
+        "title": "Etrit Berisha",
+        "section": "Albania",
+        "type": "foil"
+    },
+    {
+        "code": "ALB3",
+        "title": "Nedim Bajrami",
+        "section": "Albania",
+        "type": "foil"
+    },
+    {
+        "code": "ALB4",
+        "title": "Thomas Strakosha",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB5",
+        "title": "Iván Balliu",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB6",
+        "title": "Berat Djimsiti",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB7",
+        "title": "Elseid Hysaj",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB8",
+        "title": "Marash Kumbulla",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB9",
+        "title": "Ardian Ismajli",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB10",
+        "title": "Keidi Bare",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB11",
+        "title": "Klaus Gjasula",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB12",
+        "title": "Qazim Laçi",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB13",
+        "title": "Kristjan Asllani",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB14",
+        "title": "Anis Mehmeti",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB15",
+        "title": "Ylber Ramadani",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB16",
+        "title": "Jasir Asani",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB17",
+        "title": "Myrto Uzuni",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB18",
+        "title": "Sokol Çikalleshi",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB19",
+        "title": "Ernest Muçi",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB20",
+        "title": "Mirlind Daku",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "ALB21",
+        "title": "Armando Broja",
+        "section": "Albania",
+        "type": "-"
+    },
+    {
+        "code": "GC1",
+        "title": "Overview1",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "GC2",
+        "title": "Overview2",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SVN-P1",
+        "title": "Slovenia Landmark1",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SVN-P2",
+        "title": "Slovenia Landmark2",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "DEN-P1",
+        "title": "Denmark Landmark1",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "DEN-P2",
+        "title": "Denmark Landmark2",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SRB-P1",
+        "title": "Serbia Landmark1",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SRB-P2",
+        "title": "Serbia Landmark2",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "ENG-P1",
+        "title": "England Landmark1",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "ENG-P2",
+        "title": "England Landmark2",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SVN-PTW",
+        "title": "Žan Vipotnik",
+        "section": "Group C",
+        "type": "foil"
+    },
+    {
+        "code": "SVN-SP",
+        "title": "Benjamin Šeško",
+        "section": "Group C",
+        "type": "gold"
+    },
+    {
+        "code": "SVN-SP-s",
+        "title": "Benjamin Šeško",
+        "section": "Group C",
+        "type": "gold signature"
+    },
+    {
+        "code": "SVN-TOP1",
+        "title": "Žan Karnicnik",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SVN-TOP2",
+        "title": "Andraž Šporar",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "DEN-PTW",
+        "title": "Rasmus Højlund",
+        "section": "Group C",
+        "type": "foil"
+    },
+    {
+        "code": "DEN-SP",
+        "title": "Pierre-Emile Højbjerg",
+        "section": "Group C",
+        "type": "gold"
+    },
+    {
+        "code": "DEN-SP-s",
+        "title": "Pierre-Emile Højbjerg",
+        "section": "Group C",
+        "type": "gold signature"
+    },
+    {
+        "code": "DEN-TOP1",
+        "title": "Andreas Christensen",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "DEN-TOP2",
+        "title": "Jonas Wind",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SRB-PTW",
+        "title": "Lazar Samardžić",
+        "section": "Group C",
+        "type": "foil"
+    },
+    {
+        "code": "SRB-SP",
+        "title": "Dušan Vlahović",
+        "section": "Group C",
+        "type": "gold"
+    },
+    {
+        "code": "SRB-SP-s",
+        "title": "Dušan Vlahović",
+        "section": "Group C",
+        "type": "gold signature"
+    },
+    {
+        "code": "SRB-TOP1",
+        "title": "Nikola Milenković",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SRB-TOP2",
+        "title": "Aleksandar Mitrović",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "ENG-PTW",
+        "title": "Rico Lewis",
+        "section": "Group C",
+        "type": "foil"
+    },
+    {
+        "code": "ENG-SP",
+        "title": "Jude Bellingham",
+        "section": "Group C",
+        "type": "gold"
+    },
+    {
+        "code": "ENG-SP-s",
+        "title": "Jude Bellingham",
+        "section": "Group C",
+        "type": "gold signature"
+    },
+    {
+        "code": "ENG-TOP1",
+        "title": "Mason Mount",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "ENG-TOP2",
+        "title": "Trent Alexander-Arnold",
+        "section": "Group C",
+        "type": "-"
+    },
+    {
+        "code": "SVN1",
+        "title": "Emblem",
+        "section": "Slovenia",
+        "type": "foil"
+    },
+    {
+        "code": "SVN2",
+        "title": "Jan Oblak",
+        "section": "Slovenia",
+        "type": "foil"
+    },
+    {
+        "code": "SVN3",
+        "title": "Benjamin Šeško",
+        "section": "Slovenia",
+        "type": "foil"
+    },
+    {
+        "code": "SVN4",
+        "title": "Jaka Bijol",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN5",
+        "title": "Jure Balkovec",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN6",
+        "title": "Miha Blažič",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN7",
+        "title": "Žan Karničnik",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN8",
+        "title": "Petar Stojanović",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN9",
+        "title": "David Brekalo",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN10",
+        "title": "Erik Janža",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN11",
+        "title": "Benjamin Verbič",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN12",
+        "title": "Sandi Lovrić",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN13",
+        "title": "Miha Zajc",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN14",
+        "title": "Jasmin Kurtić",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN15",
+        "title": "Adam Gnezda Čerin",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN16",
+        "title": "Jon Gorenc Stanković",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN17",
+        "title": "Luka Zahovič",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN18",
+        "title": "Jan Mlakar",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN19",
+        "title": "Žan Vipotnik",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN20",
+        "title": "Andraž Šporar",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "SVN21",
+        "title": "Timi Max Elsnik",
+        "section": "Slovenia",
+        "type": "-"
+    },
+    {
+        "code": "DEN1",
+        "title": "Emblem",
+        "section": "Denmark",
+        "type": "foil"
+    },
+    {
+        "code": "DEN2",
+        "title": "Simon Kjaer",
+        "section": "Denmark",
+        "type": "foil"
+    },
+    {
+        "code": "DEN3",
+        "title": "Mikkel Damsgaard",
+        "section": "Denmark",
+        "type": "foil"
+    },
+    {
+        "code": "DEN4",
+        "title": "Kasper Schmeichel",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN5",
+        "title": "Andreas Christensen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN6",
+        "title": "Victor Nelsson",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN7",
+        "title": "Joachim Andersen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN8",
+        "title": "Rasmus Kristensen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN9",
+        "title": "Jens Stryger Larsen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN10",
+        "title": "Mathias Jensen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN11",
+        "title": "Christian Nørgaard",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN12",
+        "title": "Philip Billing",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN13",
+        "title": "Christian Eriksen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN14",
+        "title": "Jesper Lindstrøm",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN15",
+        "title": "Mohamed Daramy",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN16",
+        "title": "Pierre-Emile Hojbjerg",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN17",
+        "title": "Morten Hjulmand",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN18",
+        "title": "Jonas Wind",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN19",
+        "title": "Andreas Skov Olsen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN20",
+        "title": "Yussuf Poulsen",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "DEN21",
+        "title": "Rasmus Højlund",
+        "section": "Denmark",
+        "type": "-"
+    },
+    {
+        "code": "SRB1",
+        "title": "Emblem",
+        "section": "Serbia",
+        "type": "foil"
+    },
+    {
+        "code": "SRB2",
+        "title": "Dušan Tadić",
+        "section": "Serbia",
+        "type": "foil"
+    },
+    {
+        "code": "SRB3",
+        "title": "Sergej Milinković-Savić",
+        "section": "Serbia",
+        "type": "foil"
+    },
+    {
+        "code": "SRB4",
+        "title": "Vanja Milinković-Savić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB5",
+        "title": "Strahinja Pavlović",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB6",
+        "title": "Filip Mladenović",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB7",
+        "title": "Miloš Veljković",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB8",
+        "title": "Nikola Milenković",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB9",
+        "title": "Strahinja Eraković",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB10",
+        "title": "Srđan Babić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB11",
+        "title": "Nemanja Maksimović",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB12",
+        "title": "Nemanja Gudelj",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB13",
+        "title": "Saša Lukić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB14",
+        "title": "Marko Grujić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB15",
+        "title": "Ivan Ilić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB16",
+        "title": "Filip Đuričić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB17",
+        "title": "Lazar Samardžić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB18",
+        "title": "Filip Kostić",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB19",
+        "title": "Andrija Živković",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB20",
+        "title": "Aleksandar Mitrović",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "SRB21",
+        "title": "Dušan Vlahović",
+        "section": "Serbia",
+        "type": "-"
+    },
+    {
+        "code": "ENG1",
+        "title": "Emblem",
+        "section": "England",
+        "type": "foil"
+    },
+    {
+        "code": "ENG2",
+        "title": "Harry Kane",
+        "section": "England",
+        "type": "foil"
+    },
+    {
+        "code": "ENG3",
+        "title": "Cole Palmer",
+        "section": "England",
+        "type": "foil"
+    },
+    {
+        "code": "ENG4",
+        "title": "Jordan Pickford",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG5",
+        "title": "Luke Thomas",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG6",
+        "title": "Harry Maguire",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG7",
+        "title": "Kieran Trippier",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG8",
+        "title": "Luke Shaw",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG9",
+        "title": "Trent Alexander-Arnold",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG10",
+        "title": "Marc Guéhi",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG11",
+        "title": "Fikayo Tomori",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG12",
+        "title": "Rico Lewis",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG13",
+        "title": "Eberechi Eze",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG14",
+        "title": "Declan Rice",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG15",
+        "title": "Jordan Henderson",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG16",
+        "title": "Jude Bellingham",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG17",
+        "title": "Mason Mount",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG18",
+        "title": "Jarrod Bowen",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG19",
+        "title": "Jack Grealish",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG20",
+        "title": "Ollie Watkins",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "ENG21",
+        "title": "Callum Wilson",
+        "section": "England",
+        "type": "-"
+    },
+    {
+        "code": "MM1-2",
+        "title": "Mascot / José Mourinho Signature",
+        "section": "Dream Team",
+        "type": "-"
+    },
+    {
+        "code": "GD1",
+        "title": "Overview1",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "GD2",
+        "title": "Overview2",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "NED-P1",
+        "title": "Netherlands Landmark1",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "NED-P2",
+        "title": "Netherlands Landmark2",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "AUT-P1",
+        "title": "Austria Landmark1",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "AUT-P2",
+        "title": "Austria Landmark2",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "FRA-P1",
+        "title": "France Landmark1",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "FRA-P2",
+        "title": "France Landmark2",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "POL-EST-SP",
+        "title": "Robert Lewandowski / Markus Poom",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "WAL-FIN-SP",
+        "title": "Brennan Johnson / Teemu Pukki",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "NED-PTW",
+        "title": "Xavi Simons",
+        "section": "Group D",
+        "type": "foil"
+    },
+    {
+        "code": "NED-SP",
+        "title": "Cody Gakpo",
+        "section": "Group D",
+        "type": "gold"
+    },
+    {
+        "code": "NED-SP-s",
+        "title": "Cody Gakpo",
+        "section": "Group D",
+        "type": "gold signature"
+    },
+    {
+        "code": "NED-TOP1",
+        "title": "Frenkie de Jong",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "NED-TOP2",
+        "title": "Donyell Malen",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "AUT-PTW",
+        "title": "Nicolas Seiwald",
+        "section": "Group D",
+        "type": "foil"
+    },
+    {
+        "code": "AUT-SP",
+        "title": "Marko Arnautović",
+        "section": "Group D",
+        "type": "gold"
+    },
+    {
+        "code": "AUT-SP-s",
+        "title": "Marko Arnautović",
+        "section": "Group D",
+        "type": "gold signature"
+    },
+    {
+        "code": "AUT-TOP1",
+        "title": "Konrad Laimer",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "AUT-TOP2",
+        "title": "Patrick Wimmer",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "FRA-PTW",
+        "title": "Eduardo Camavinga",
+        "section": "Group D",
+        "type": "foil"
+    },
+    {
+        "code": "FRA-SP",
+        "title": "Kingsley Coman",
+        "section": "Group D",
+        "type": "gold"
+    },
+    {
+        "code": "FRA-SP-s",
+        "title": "Kingsley Coman",
+        "section": "Group D",
+        "type": "gold signature"
+    },
+    {
+        "code": "FRA-TOP1",
+        "title": "Randal Kolo Muani",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "FRA-TOP2",
+        "title": "Ousmane Dembélé",
+        "section": "Group D",
+        "type": "-"
+    },
+    {
+        "code": "POL1",
+        "title": "Emblem",
+        "section": "Poland",
+        "type": "foil"
+    },
+    {
+        "code": "POL2-3",
+        "title": "Wojciech Szczęsny / Jan Bednarek",
+        "section": "Poland",
+        "type": "-"
+    },
+    {
+        "code": "POL4-5",
+        "title": "Matty Cash / Mateusz Wieteska",
+        "section": "Poland",
+        "type": "-"
+    },
+    {
+        "code": "POL6-7",
+        "title": "Tomasz Kędziora / Jakub Kiwior",
+        "section": "Poland",
+        "type": "-"
+    },
+    {
+        "code": "POL8-9",
+        "title": "Bartosz Slisz / Nicola Zalewski",
+        "section": "Poland",
+        "type": "-"
+    },
+    {
+        "code": "POL10-11",
+        "title": "Piotr Zieliński / Kacper Kozłowski",
+        "section": "Poland",
+        "type": "-"
+    },
+    {
+        "code": "POL12-13",
+        "title": "Damian Szymański / Karol Linetty",
+        "section": "Poland",
+        "type": "-"
+    },
+    {
+        "code": "POL14-15",
+        "title": "Arkadiusz Milik / Robert Lewandowski",
+        "section": "Poland",
+        "type": "-"
+    },
+    {
+        "code": "EST1",
+        "title": "Emblem",
+        "section": "Estonia",
+        "type": "foil"
+    },
+    {
+        "code": "EST2-3",
+        "title": "Karl Hein / Joonas Tamm",
+        "section": "Estonia",
+        "type": "-"
+    },
+    {
+        "code": "EST4-5",
+        "title": "Märten Kuusk / Artur Pikk",
+        "section": "Estonia",
+        "type": "-"
+    },
+    {
+        "code": "EST6-7",
+        "title": "Marco Lukka / Rasmus Peetson",
+        "section": "Estonia",
+        "type": "-"
+    },
+    {
+        "code": "EST8-9",
+        "title": "Maksim Paskotsi / Taijo Teniste",
+        "section": "Estonia",
+        "type": "-"
+    },
+    {
+        "code": "EST10-11",
+        "title": "Nikita Baranov / Rocco Shein",
+        "section": "Estonia",
+        "type": "-"
+    },
+    {
+        "code": "EST12-13",
+        "title": "Georgi Tunjov / Martin Miller",
+        "section": "Estonia",
+        "type": "-"
+    },
+    {
+        "code": "EST14-15",
+        "title": "Markus Poom / Martin Vetkal",
+        "section": "Estonia",
+        "type": "-"
+    },
+    {
+        "code": "WAL1",
+        "title": "Emblem",
+        "section": "Wales",
+        "type": "foil"
+    },
+    {
+        "code": "WAL2-3",
+        "title": "Danny Ward / Ben Davies",
+        "section": "Wales",
+        "type": "-"
+    },
+    {
+        "code": "WAL4-5",
+        "title": "Neco Williams / Joe Rodon",
+        "section": "Wales",
+        "type": "-"
+    },
+    {
+        "code": "WAL6-7",
+        "title": "Connor Roberts / Chris Mepham",
+        "section": "Wales",
+        "type": "-"
+    },
+    {
+        "code": "WAL8-9",
+        "title": "Aaron Ramsey / David Brooks",
+        "section": "Wales",
+        "type": "-"
+    },
+    {
+        "code": "WAL10-11",
+        "title": "Harry Wilson / Jordan James",
+        "section": "Wales",
+        "type": "-"
+    },
+    {
+        "code": "WAL12-13",
+        "title": "Ethan Ampadu / Daniel James",
+        "section": "Wales",
+        "type": "-"
+    },
+    {
+        "code": "WAL14-15",
+        "title": "Kieffer Moore / Brennan Johnson",
+        "section": "Wales",
+        "type": "-"
+    },
+    {
+        "code": "FIN1",
+        "title": "Emblem",
+        "section": "Finland",
+        "type": "foil"
+    },
+    {
+        "code": "FIN2-3",
+        "title": "Lukas Hradecky / Leo Väisänen",
+        "section": "Finland",
+        "type": "-"
+    },
+    {
+        "code": "FIN4-5",
+        "title": "Arttu Hoskonen / Nikolai Alho",
+        "section": "Finland",
+        "type": "-"
+    },
+    {
+        "code": "FIN6-7",
+        "title": "Robert Ivanov / Robin Lod",
+        "section": "Finland",
+        "type": "-"
+    },
+    {
+        "code": "FIN8-9",
+        "title": "Glen Kamara / Robert Taylor",
+        "section": "Finland",
+        "type": "-"
+    },
+    {
+        "code": "FIN10-11",
+        "title": "Rasmus Schüller / Kaan Kairinen",
+        "section": "Finland",
+        "type": "-"
+    },
+    {
+        "code": "FIN12-13",
+        "title": "Oliver Antman / Joel Pohjanpalo",
+        "section": "Finland",
+        "type": "-"
+    },
+    {
+        "code": "FIN14-15",
+        "title": "Benjamin Källman / Teemu Pukki",
+        "section": "Finland",
+        "type": "-"
+    },
+    {
+        "code": "NED1",
+        "title": "Emblem",
+        "section": "Netherlands",
+        "type": "foil"
+    },
+    {
+        "code": "NED2",
+        "title": "Virgil van Dijk",
+        "section": "Netherlands",
+        "type": "foil"
+    },
+    {
+        "code": "NED3",
+        "title": "Frenkie de Jong",
+        "section": "Netherlands",
+        "type": "foil"
+    },
+    {
+        "code": "NED4",
+        "title": "Justin Bijlow",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED5",
+        "title": "Jeremie Frimpong",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED6",
+        "title": "Micky van de Ven",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED7",
+        "title": "Matthijs de Ligt",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED8",
+        "title": "Denzel Dumfries",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED9",
+        "title": "Lutsharel Geertruida",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED10",
+        "title": "Daley Blind",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED11",
+        "title": "Quilindschy Hartman",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED12",
+        "title": "Nathan Aké",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED13",
+        "title": "Tijjani Reijnders",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED14",
+        "title": "Marten de Roon",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED15",
+        "title": "Teun Koopmeiners",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED16",
+        "title": "Donyell Malen",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED17",
+        "title": "Xavi Simons",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED18",
+        "title": "Cody Gakpo",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED19",
+        "title": "Noa Lang",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED20",
+        "title": "Steven Bergwijn",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "NED21",
+        "title": "Memphis Depay",
+        "section": "Netherlands",
+        "type": "-"
+    },
+    {
+        "code": "AUT1",
+        "title": "Emblem",
+        "section": "Austria",
+        "type": "foil"
+    },
+    {
+        "code": "AUT2",
+        "title": "David Alaba",
+        "section": "Austria",
+        "type": "foil"
+    },
+    {
+        "code": "AUT3",
+        "title": "Junior Adamu",
+        "section": "Austria",
+        "type": "foil"
+    },
+    {
+        "code": "AUT4",
+        "title": "Alexander Schlager",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT5",
+        "title": "Stefan Posch",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT6",
+        "title": "Philipp Lienhart",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT7",
+        "title": "Philipp Mwene",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT8",
+        "title": "Maximilian Wöber",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT9",
+        "title": "Kevin Danso",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT10",
+        "title": "Marcel Sabitzer",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT11",
+        "title": "Nicolas Seiwald",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT12",
+        "title": "Florian Grillitsch",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT13",
+        "title": "Xaver Schlager",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT14",
+        "title": "Konrad Laimer",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT15",
+        "title": "Christoph Baumgartner",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT16",
+        "title": "Florian Kainz",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT17",
+        "title": "Patrick Wimmer",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT18",
+        "title": "Marko Arnautović",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT19",
+        "title": "Sasa Kalajdzic",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT20",
+        "title": "Manprit Sarkaria",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "AUT21",
+        "title": "Michael Gregoritsch",
+        "section": "Austria",
+        "type": "-"
+    },
+    {
+        "code": "FRA1",
+        "title": "Emblem",
+        "section": "France",
+        "type": "foil"
+    },
+    {
+        "code": "FRA2",
+        "title": "Zinedine Zidane",
+        "section": "France",
+        "type": "foil"
+    },
+    {
+        "code": "FRA3",
+        "title": "Ousmane Dembélé",
+        "section": "France",
+        "type": "foil"
+    },
+    {
+        "code": "FRA4",
+        "title": "Mike Maignan",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA5",
+        "title": "Ibrahima Konaté",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA6",
+        "title": "Jules Koundé",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA7",
+        "title": "Dayot Upamecano",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA8",
+        "title": "Castello Lukeba",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA9",
+        "title": "Mohamed Simakan",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA10",
+        "title": "Lucas Hernández",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA11",
+        "title": "Pierre Kalulu",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA12",
+        "title": "Theo Hernández",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA13",
+        "title": "Eduardo Camavinga",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA14",
+        "title": "Aurélien Tchouameni",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA15",
+        "title": "Adrien Rabiot",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA16",
+        "title": "Warren Zaïre-Emery",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA17",
+        "title": "Randal Kolo Muani",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA18",
+        "title": "Olivier Giroud",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA19",
+        "title": "Kingsley Coman",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA20",
+        "title": "Antoine Griezmann",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "FRA21",
+        "title": "Marcus Thuram",
+        "section": "France",
+        "type": "-"
+    },
+    {
+        "code": "GE1",
+        "title": "Overview1",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "GE2",
+        "title": "Overview2",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "BEL-P1",
+        "title": "Belgium Landmark1",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "BEL-P2",
+        "title": "Belgium Landmark2",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "SVK-P1",
+        "title": "Slovakia Landmark1",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "SVK-P2",
+        "title": "Slovakia Landmark2",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "ROM-P1",
+        "title": "Romania Landmark1",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "ROM-P2",
+        "title": "Romania Landmark2",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "BEL-PTW",
+        "title": "Johan Bakayoko",
+        "section": "Group E",
+        "type": "foil"
+    },
+    {
+        "code": "BEL-SP",
+        "title": "Romelu Lukaku",
+        "section": "Group E",
+        "type": "gold"
+    },
+    {
+        "code": "BEL-SP-s",
+        "title": "Romelu Lukaku",
+        "section": "Group E",
+        "type": "gold signature"
+    },
+    {
+        "code": "BEL-TOP1",
+        "title": "Lois Openda",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "BEL-TOP2",
+        "title": "Leandro Trossard",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "SVK-PTW",
+        "title": "Tomáš Suslov",
+        "section": "Group E",
+        "type": "foil"
+    },
+    {
+        "code": "SVK-SP",
+        "title": "Stanislav Lobotka",
+        "section": "Group E",
+        "type": "gold"
+    },
+    {
+        "code": "SVK-SP-s",
+        "title": "Stanislav Lobotka",
+        "section": "Group E",
+        "type": "gold signature"
+    },
+    {
+        "code": "SVK-TOP1",
+        "title": "Dávid Hancko",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "SVK-TOP2",
+        "title": "Róbert Mak",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "ROM-PTW",
+        "title": "Ianis Hagi",
+        "section": "Group E",
+        "type": "foil"
+    },
+    {
+        "code": "ROM-SP",
+        "title": "Răzvan Marin",
+        "section": "Group E",
+        "type": "gold"
+    },
+    {
+        "code": "ROM-SP-s",
+        "title": "Răzvan Marin",
+        "section": "Group E",
+        "type": "gold signature"
+    },
+    {
+        "code": "ROM-TOP1",
+        "title": "Valentin Mihăilă",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "ROM-TOP2",
+        "title": "Darius Olaru",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "ISR-ICE-SP",
+        "title": "Manor Solomon / Alfred Finnbogason",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "BIH-UKR-SP",
+        "title": "Rade Krunić / Mykhailo Mudryk",
+        "section": "Group E",
+        "type": "-"
+    },
+    {
+        "code": "BEL1",
+        "title": "Emblem",
+        "section": "Belgium",
+        "type": "foil"
+    },
+    {
+        "code": "BEL2",
+        "title": "Kevin De Bruyne",
+        "section": "Belgium",
+        "type": "foil"
+    },
+    {
+        "code": "BEL3",
+        "title": "Amadou Onana",
+        "section": "Belgium",
+        "type": "foil"
+    },
+    {
+        "code": "BEL4",
+        "title": "Thibaut Courtois",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL5",
+        "title": "Jan Vertonghen",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL6",
+        "title": "Wout Faes",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL7",
+        "title": "Timothy Castagne",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL8",
+        "title": "Arthur Theate",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL9",
+        "title": "Zeno Debast",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL10",
+        "title": "Ameen Al-Dakhil",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL11",
+        "title": "Leander Dendoncker",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL12",
+        "title": "Romeo Lavia",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL13",
+        "title": "Youri Tielemans",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL14",
+        "title": "Charles De Ketelaere",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL15",
+        "title": "Yannick Carrasco",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL16",
+        "title": "Alexis Saelemaekers",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL17",
+        "title": "Leandro Trossard",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL18",
+        "title": "Jérémy Doku",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL19",
+        "title": "Romelu Lukaku",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL20",
+        "title": "Michy Batshuayi",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "BEL21",
+        "title": "Loïs Openda",
+        "section": "Belgium",
+        "type": "-"
+    },
+    {
+        "code": "SVK1",
+        "title": "Emblem",
+        "section": "Slovakia",
+        "type": "foil"
+    },
+    {
+        "code": "SVK2",
+        "title": "Milan Škriniar",
+        "section": "Slovakia",
+        "type": "foil"
+    },
+    {
+        "code": "SVK3",
+        "title": "Laci Bénes",
+        "section": "Slovakia",
+        "type": "foil"
+    },
+    {
+        "code": "SVK4",
+        "title": "Martin Dúbravka",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK5",
+        "title": "Peter Pekarik",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK6",
+        "title": "Denis Vavro",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK7",
+        "title": "Michal Tomič",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK8",
+        "title": "Dávid Hancko",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK9",
+        "title": "Ondrej Duda",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK10",
+        "title": "Patrik Hrošovský",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK11",
+        "title": "Jakub Kadák",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK12",
+        "title": "Juraj Kucka",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK13",
+        "title": "Matúš Bero",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK14",
+        "title": "Stanislav Lobotka",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK15",
+        "title": "Tomáš Suslov",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK16",
+        "title": "Róbert Boženík",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK17",
+        "title": "Róbert Polievka",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK18",
+        "title": "Adam Zreľák",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK19",
+        "title": "Lukáš Haraslin",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK20",
+        "title": "Róbert Mak",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "SVK21",
+        "title": "Erik Jirka",
+        "section": "Slovakia",
+        "type": "-"
+    },
+    {
+        "code": "ROM1",
+        "title": "Emblem",
+        "section": "Romania",
+        "type": "foil"
+    },
+    {
+        "code": "ROM2",
+        "title": "Nicolae Stanciu",
+        "section": "Romania",
+        "type": "foil"
+    },
+    {
+        "code": "ROM3",
+        "title": "Ianis Hagi",
+        "section": "Romania",
+        "type": "foil"
+    },
+    {
+        "code": "ROM4",
+        "title": "Horațiu Moldovan",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM5",
+        "title": "Andrei Rațiu",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM6",
+        "title": "Radu Drăgușin",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM7",
+        "title": "Cristian Manea",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM8",
+        "title": "Vladimir Screciu",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM9",
+        "title": "Nicușor Bancu",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM10",
+        "title": "Andrei Burcă",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM11",
+        "title": "Tudor Băluţă",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM12",
+        "title": "Alexandru Cicâldău",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM13",
+        "title": "Darius Olaru",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM14",
+        "title": "Răzvan Marin",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM15",
+        "title": "Olimpiu Moruţan",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM16",
+        "title": "Marius Marin",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM17",
+        "title": "George Puşcaş",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM18",
+        "title": "Valentin Mihăilă",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM19",
+        "title": "Denis Alibec",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM20",
+        "title": "Florinel Coman",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ROM21",
+        "title": "Dennis Man",
+        "section": "Romania",
+        "type": "-"
+    },
+    {
+        "code": "ISR1",
+        "title": "Emblem",
+        "section": "Israel",
+        "type": "foil"
+    },
+    {
+        "code": "ISR2-3",
+        "title": "Omri Glazer / Miguel Vítor",
+        "section": "Israel",
+        "type": "-"
+    },
+    {
+        "code": "ISR4-5",
+        "title": "Raz Shlomo / Eli Dasa",
+        "section": "Israel",
+        "type": "-"
+    },
+    {
+        "code": "ISR6-7",
+        "title": "Sean Goldberg / Roy Revivo",
+        "section": "Israel",
+        "type": "-"
+    },
+    {
+        "code": "ISR8-9",
+        "title": "Doron Leidner / Oscar Gloukh",
+        "section": "Israel",
+        "type": "-"
+    },
+    {
+        "code": "ISR10-11",
+        "title": "Dor Peretz / Neta Lavi",
+        "section": "Israel",
+        "type": "-"
+    },
+    {
+        "code": "ISR12-13",
+        "title": "Ramzi Safouri / Gavriel Kanichowsky",
+        "section": "Israel",
+        "type": "-"
+    },
+    {
+        "code": "ISR14-15",
+        "title": "Liel Abada / Manor Solomon",
+        "section": "Israel",
+        "type": "-"
+    },
+    {
+        "code": "ICE1",
+        "title": "Emblem",
+        "section": "Iceland",
+        "type": "foil"
+    },
+    {
+        "code": "ICE2-3",
+        "title": "Rúnar Rúnarsson / Alfons Sampsted",
+        "section": "Iceland",
+        "type": "-"
+    },
+    {
+        "code": "ICE4-5",
+        "title": "Davíð Kristján Ólafsson / Valgeir Lunddal Fridriksson",
+        "section": "Iceland",
+        "type": "-"
+    },
+    {
+        "code": "ICE6-7",
+        "title": "Sverrir Ingason / Hjörtur Hermannsson",
+        "section": "Iceland",
+        "type": "-"
+    },
+    {
+        "code": "ICE8-9",
+        "title": "Daníel Leó Grétarsson / Aron Gunnarsson",
+        "section": "Iceland",
+        "type": "-"
+    },
+    {
+        "code": "ICE10-11",
+        "title": "Birkir Bjarnason / Jón Dagur Thorsteinsson",
+        "section": "Iceland",
+        "type": "-"
+    },
+    {
+        "code": "ICE12-13",
+        "title": "Albert Gudmundsson / Willum Thor Willumsson",
+        "section": "Iceland",
+        "type": "-"
+    },
+    {
+        "code": "ICE14-15",
+        "title": "Mikael Anderson / Alfred Finnbogason",
+        "section": "Iceland",
+        "type": "-"
+    },
+    {
+        "code": "BIH1",
+        "title": "Emblem",
+        "section": "Bosnia and Herzegovina",
+        "type": "foil"
+    },
+    {
+        "code": "BIH2-3",
+        "title": "Ibrahim Šehić / Anel Ahmedhodžić",
+        "section": "Bosnia and Herzegovina",
+        "type": "-"
+    },
+    {
+        "code": "BIH4-5",
+        "title": "Dennis Hadžikadunić / Amar Dedić",
+        "section": "Bosnia and Herzegovina",
+        "type": "-"
+    },
+    {
+        "code": "BIH6-7",
+        "title": "Sead Kolašinac / Benjamin Tahirović",
+        "section": "Bosnia and Herzegovina",
+        "type": "-"
+    },
+    {
+        "code": "BIH8-9",
+        "title": "Miralem Pjanić / Gojko Cimirot",
+        "section": "Bosnia and Herzegovina",
+        "type": "-"
+    },
+    {
+        "code": "BIH10-11",
+        "title": "Amir Hadžiahmetović / Rade Krunić",
+        "section": "Bosnia and Herzegovina",
+        "type": "-"
+    },
+    {
+        "code": "BIH12-13",
+        "title": "Edin Džeko / Nemanja Bilbija",
+        "section": "Bosnia and Herzegovina",
+        "type": "-"
+    },
+    {
+        "code": "BIH14-15",
+        "title": "Smail Prevljak / Ermedin Demirović",
+        "section": "Bosnia and Herzegovina",
+        "type": "-"
+    },
+    {
+        "code": "UKR1",
+        "title": "Emblem",
+        "section": "Ukraine",
+        "type": "foil"
+    },
+    {
+        "code": "UKR2-3",
+        "title": "Anatoliy Trubin / Yukhym Konoplia",
+        "section": "Ukraine",
+        "type": "-"
+    },
+    {
+        "code": "UKR4-5",
+        "title": "Bogdan Mykhaylichenko / Oleksandr Zinchenko",
+        "section": "Ukraine",
+        "type": "-"
+    },
+    {
+        "code": "UKR6-7",
+        "title": "Ilya Zabarnyi / Vitaliy Mykolenko",
+        "section": "Ukraine",
+        "type": "-"
+    },
+    {
+        "code": "UKR8-9",
+        "title": "Mykola Matviyenko / Georgiy Sudakov",
+        "section": "Ukraine",
+        "type": "-"
+    },
+    {
+        "code": "UKR10-11",
+        "title": "Taras Stepanenko / Serhiy Sydorchuk",
+        "section": "Ukraine",
+        "type": "-"
+    },
+    {
+        "code": "UKR12-13",
+        "title": "Viktor Tsygankov / Andriy Yarmolenko",
+        "section": "Ukraine",
+        "type": "-"
+    },
+    {
+        "code": "UKR14-15",
+        "title": "Roman Yaremchuk / Mykhailo Mudryk",
+        "section": "Ukraine",
+        "type": "-"
+    },
+    {
+        "code": "GF1",
+        "title": "Overview1",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "GF2",
+        "title": "Overview2",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "TUR-P1",
+        "title": "Turkey Landmark1",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "TUR-P2",
+        "title": "Turkey Landmark2",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "POR-P1",
+        "title": "Portugal Landmark1",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "POR-P2",
+        "title": "Portugal Landmark2",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "CZE-P1",
+        "title": "Czechia Landmark1",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "CZE-P2",
+        "title": "Czechia Landmark2",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "TUR-PTW",
+        "title": "Arda Güler",
+        "section": "Group F",
+        "type": "foil"
+    },
+    {
+        "code": "TUR-SP",
+        "title": "Cengiz Ünder",
+        "section": "Group F",
+        "type": "gold"
+    },
+    {
+        "code": "TUR-SP-s",
+        "title": "Cengiz Ünder",
+        "section": "Group F",
+        "type": "gold signature"
+    },
+    {
+        "code": "TUR-TOP1",
+        "title": "Merih Demiral",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "TUR-TOP2",
+        "title": "Orkun Kökçü",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "GEO-LUX-SP",
+        "title": "Khvicha Kvaratskhelia / Leandro Barreiro",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "GRE-KAZ-SP",
+        "title": "Konstantinos Mavropanos / Bakhtiyor Zaynutdinov",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "POR-PTW",
+        "title": "Rafael Leão",
+        "section": "Group F",
+        "type": "foil"
+    },
+    {
+        "code": "POR-SP",
+        "title": "Bernardo Silva",
+        "section": "Group F",
+        "type": "gold"
+    },
+    {
+        "code": "POR-SP-s",
+        "title": "Bernardo Silva",
+        "section": "Group F",
+        "type": "gold signature"
+    },
+    {
+        "code": "POR-TOP1",
+        "title": "Bruno Fernandes",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "POR-TOP2",
+        "title": "Gonçalo Ramos",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "CZE-PTW",
+        "title": "Adam Hložek",
+        "section": "Group F",
+        "type": "foil"
+    },
+    {
+        "code": "CZE-SP",
+        "title": "Patrik Schick",
+        "section": "Group F",
+        "type": "gold"
+    },
+    {
+        "code": "CZE-SP-s",
+        "title": "Patrik Schick",
+        "section": "Group F",
+        "type": "gold signature"
+    },
+    {
+        "code": "CZE-TOP1",
+        "title": "Tomáš Holeš",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "CZE-TOP2",
+        "title": "Alex Král",
+        "section": "Group F",
+        "type": "-"
+    },
+    {
+        "code": "TUR1",
+        "title": "Emblem",
+        "section": "Turkey",
+        "type": "foil"
+    },
+    {
+        "code": "TUR2",
+        "title": "Hakan Çalhanoğlu",
+        "section": "Turkey",
+        "type": "foil"
+    },
+    {
+        "code": "TUR3",
+        "title": "Barış Alper Yılmaz",
+        "section": "Turkey",
+        "type": "foil"
+    },
+    {
+        "code": "TUR4",
+        "title": "Mert Günok",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR5",
+        "title": "Zeki Çelik",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR6",
+        "title": "Çağlar Söyüncü",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR7",
+        "title": "Eren Elmalı",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR8",
+        "title": "Abdülkerim Bardakcı",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR9",
+        "title": "Ozan Kabak",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR10",
+        "title": "Onur Bulut",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR11",
+        "title": "Ferdi Kadıoğlu",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR12",
+        "title": "Merih Demiral",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR13",
+        "title": "Cenk Özkacar",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR14",
+        "title": "Salih Özcan",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR15",
+        "title": "İrfan Can Kahveci",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR16",
+        "title": "Arda Güler",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR17",
+        "title": "Orkun Kökçü",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR18",
+        "title": "Kerem Aktürkoğlu",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR19",
+        "title": "Cenk Tosun",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR20",
+        "title": "Enes Ünal",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "TUR21",
+        "title": "Cengiz Ünder",
+        "section": "Turkey",
+        "type": "-"
+    },
+    {
+        "code": "GEO1",
+        "title": "Emblem",
+        "section": "Georgia",
+        "type": "foil"
+    },
+    {
+        "code": "GEO2-3",
+        "title": "Giorgi Mamardashvili / Guram Kashia",
+        "section": "Georgia",
+        "type": "-"
+    },
+    {
+        "code": "GEO4-5",
+        "title": "Otar Kakabadze / Giorgi Gocholeishvili",
+        "section": "Georgia",
+        "type": "-"
+    },
+    {
+        "code": "GEO6-7",
+        "title": "Lasha Dvali / Solomon Kverkvelia",
+        "section": "Georgia",
+        "type": "-"
+    },
+    {
+        "code": "GEO8-9",
+        "title": "Luka Lochoshvili / Khvicha Kvaratskhelia",
+        "section": "Georgia",
+        "type": "-"
+    },
+    {
+        "code": "GEO10-11",
+        "title": "Saba Lobjanidze / Nika Kvekveskiri",
+        "section": "Georgia",
+        "type": "-"
+    },
+    {
+        "code": "GEO12-13",
+        "title": "Giorgi Chakvetadze / Zuriko Davitashvili",
+        "section": "Georgia",
+        "type": "-"
+    },
+    {
+        "code": "GEO14-15",
+        "title": "Budu Zivzivadze / Georges Mikautadze",
+        "section": "Georgia",
+        "type": "-"
+    },
+    {
+        "code": "LUX1",
+        "title": "Emblem",
+        "section": "Luxembourg",
+        "type": "foil"
+    },
+    {
+        "code": "LUX2-3",
+        "title": "Anthony Moris / Maxime Chanot",
+        "section": "Luxembourg",
+        "type": "-"
+    },
+    {
+        "code": "LUX4-5",
+        "title": "Lars Gerson / Mica Pinto",
+        "section": "Luxembourg",
+        "type": "-"
+    },
+    {
+        "code": "LUX6-7",
+        "title": "Enes Mahmutovic / Laurent Jans",
+        "section": "Luxembourg",
+        "type": "-"
+    },
+    {
+        "code": "LUX8-9",
+        "title": "Marvin Martins / Vincent Thill",
+        "section": "Luxembourg",
+        "type": "-"
+    },
+    {
+        "code": "LUX10-11",
+        "title": "Christopher Martins / Leandro Barreiro",
+        "section": "Luxembourg",
+        "type": "-"
+    },
+    {
+        "code": "LUX12-13",
+        "title": "Mathias Olesen / Gerson Rodrigues",
+        "section": "Luxembourg",
+        "type": "-"
+    },
+    {
+        "code": "LUX14-15",
+        "title": "Danel Sinani / Yvandro Borges Sanches",
+        "section": "Luxembourg",
+        "type": "-"
+    },
+    {
+        "code": "GRE1",
+        "title": "Emblem",
+        "section": "Greece",
+        "type": "foil"
+    },
+    {
+        "code": "GRE2-3",
+        "title": "Odysseas Vlachodimos / Panagiotis Retsos",
+        "section": "Greece",
+        "type": "-"
+    },
+    {
+        "code": "GRE4-5",
+        "title": "Pantelis Hatzidiakos / Kostas Tsimikas",
+        "section": "Greece",
+        "type": "-"
+    },
+    {
+        "code": "GRE6-7",
+        "title": "Konstantinos Mavropanos / Dimitris Giannoulis",
+        "section": "Greece",
+        "type": "-"
+    },
+    {
+        "code": "GRE8-9",
+        "title": "George Baldock / Andreas Bouchalakis",
+        "section": "Greece",
+        "type": "-"
+    },
+    {
+        "code": "GRE10-11",
+        "title": "Dimitris Pelkas / Dimitrios Kourbelis",
+        "section": "Greece",
+        "type": "-"
+    },
+    {
+        "code": "GRE12-13",
+        "title": "Tasos Bakasetas / Petros Mantalos",
+        "section": "Greece",
+        "type": "-"
+    },
+    {
+        "code": "GRE14-15",
+        "title": "Manolis Siopis / Giorgios Masouras",
+        "section": "Greece",
+        "type": "-"
+    },
+    {
+        "code": "KAZ1",
+        "title": "Emblem",
+        "section": "Kazakhstan",
+        "type": "foil"
+    },
+    {
+        "code": "KAZ2-3",
+        "title": "Igor Shatskiy / Nuraly Alip",
+        "section": "Kazakhstan",
+        "type": "-"
+    },
+    {
+        "code": "KAZ4-5",
+        "title": "Lev Skvortsov / Alexandr Marochkin",
+        "section": "Kazakhstan",
+        "type": "-"
+    },
+    {
+        "code": "KAZ6-7",
+        "title": "Abzal Beysebekov / Yan Vorogovskiy",
+        "section": "Kazakhstan",
+        "type": "-"
+    },
+    {
+        "code": "KAZ8-9",
+        "title": "Ramazan Orazov / Askhat Tagybergen",
+        "section": "Kazakhstan",
+        "type": "-"
+    },
+    {
+        "code": "KAZ10-11",
+        "title": "Aslan Darabayev / Bakhtiyor Zaynutdinov",
+        "section": "Kazakhstan",
+        "type": "-"
+    },
+    {
+        "code": "KAZ12-13",
+        "title": "Elkhan Astanov / Abat Aimbetov",
+        "section": "Kazakhstan",
+        "type": "-"
+    },
+    {
+        "code": "KAZ14-15",
+        "title": "Maxim Samorodov / Vladislav Prokopenko",
+        "section": "Kazakhstan",
+        "type": "-"
+    },
+    {
+        "code": "POR1",
+        "title": "Emblem",
+        "section": "Portugal",
+        "type": "foil"
+    },
+    {
+        "code": "POR2",
+        "title": "Cristiano Ronaldo",
+        "section": "Portugal",
+        "type": "foil"
+    },
+    {
+        "code": "POR3",
+        "title": "João Félix",
+        "section": "Portugal",
+        "type": "foil"
+    },
+    {
+        "code": "POR4",
+        "title": "Diogo Costa",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR5",
+        "title": "Nélson Semedo",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR6",
+        "title": "António Silva",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR7",
+        "title": "Rúben Dias",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR8",
+        "title": "Raphaël Guerreiro",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR9",
+        "title": "Diogo Dalot",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR10",
+        "title": "Nuno Mendes",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR11",
+        "title": "João Cancelo",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR12",
+        "title": "João Palhinha",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR13",
+        "title": "Danilo Pereira",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR14",
+        "title": "Otávio",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR15",
+        "title": "Rúben Neves",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR16",
+        "title": "Vitinha",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR17",
+        "title": "Bruno Fernandes",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR18",
+        "title": "Bernardo Silva",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR19",
+        "title": "Gonçalo Ramos",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR20",
+        "title": "Diogo Jota",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "POR21",
+        "title": "Rafael Leão",
+        "section": "Portugal",
+        "type": "-"
+    },
+    {
+        "code": "CZE1",
+        "title": "Emblem",
+        "section": "Czechia",
+        "type": "foil"
+    },
+    {
+        "code": "CZE2",
+        "title": "Tomáš Souček",
+        "section": "Czechia",
+        "type": "foil"
+    },
+    {
+        "code": "CZE3",
+        "title": "Mojmír Chytil",
+        "section": "Czechia",
+        "type": "foil"
+    },
+    {
+        "code": "CZE4",
+        "title": "Jiří Pavlenka",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE5",
+        "title": "David Jurásek",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE6",
+        "title": "Jakub Brabec",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE7",
+        "title": "Vladimír Coufal",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE8",
+        "title": "Jaroslav Zelený",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE9",
+        "title": "David Douděra",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE10",
+        "title": "Tomáš Holeš",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE11",
+        "title": "Alex Král",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE12",
+        "title": "Ladislav Krejčí",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE13",
+        "title": "Michal Sadílek",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE14",
+        "title": "Ondřej Lingr",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE15",
+        "title": "Lukáš Sadílek",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE16",
+        "title": "Adam Hložek",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE17",
+        "title": "Tomáš Čvančara",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE18",
+        "title": "Jan Kuchta",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE19",
+        "title": "Patrik Schick",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE20",
+        "title": "Václav Černý",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "CZE21",
+        "title": "Václav Jurečka",
+        "section": "Czechia",
+        "type": "-"
+    },
+    {
+        "code": "LEG1",
+        "title": "Fernando Torres",
+        "section": "Legends",
+        "type": "-"
+    },
+    {
+        "code": "LEG2",
+        "title": "Gareth Bale",
+        "section": "Legends",
+        "type": "-"
+    },
+    {
+        "code": "LEG3",
+        "title": "Wayne Rooney",
+        "section": "Legends",
+        "type": "foil"
+    },
+    {
+        "code": "LEG4",
+        "title": "Pavel Nedved",
+        "section": "Legends",
+        "type": "-"
+    },
+    {
+        "code": "LEG5",
+        "title": "Andriy Shevchenko",
+        "section": "Legends",
+        "type": "-"
+    },
+    {
+        "code": "LEG6",
+        "title": "Clarence Seedorf",
+        "section": "Legends",
+        "type": "-"
+    },
+    {
+        "code": "LEG7",
+        "title": "Luis Figo",
+        "section": "Legends",
+        "type": "-"
+    },
+    {
+        "code": "LEG8",
+        "title": "Zinedine Zidane",
+        "section": "Legends",
+        "type": "foil"
+    },
+    {
+        "code": "LEG9",
+        "title": "Franz Beckenbauer",
+        "section": "Legends",
+        "type": "foil"
+    },
+    {
+        "code": "LEG10",
+        "title": "Zlatan Ibrahimović",
+        "section": "Legends",
+        "type": "-"
+    }
+];
+
 $(document).ready(function() {
     const $myStickersTextarea = $('#my-stickers');
     const $friendStickersTextarea = $('#friend-stickers');
@@ -8582,6 +12953,7 @@ $(document).ready(function() {
     const $spareStickersContainer = $('.spare-stickers-container');
 
     const $generateBtn = $('#generate-missing-stickers');
+    const $generateCopyMissingStickers = $('#generate-copy-missing-stickers');
     const $copyMissingBtn = $('#copy-missing-stickers');
     const $copySpareBtn = $('#copy-spare-stickers');
     const $copyOfferBtn = $('#copy-offer-stickers');
@@ -8622,6 +12994,32 @@ $(document).ready(function() {
         if (result.spareCodes.length) {
             $spareStickersTextarea.val(generatedCodesOutput);
             $copySpareBtn.text(`Copy spare stickers (${result.spareCodes.length})`);
+        }
+    });
+
+    // Generate string on button click
+    $generateCopyMissingStickers.on('click', function() {
+        const inputText = $myStickersTextarea.val().trim(); // Get input value and trim whitespace
+
+        if (!inputText) {
+            return;
+        }
+
+        const result = generateMissingCodesWithoutRarity(inputText);
+
+        // Generate output string of missing codes
+        const missingCodesWithoutRarityOutput = result.join(', ');
+
+        // Display results in the textareas
+        if (result.length) {
+            // Using navigator clipboard API to copy text
+            navigator.clipboard.writeText(missingCodesWithoutRarityOutput)
+            .then(() => {;
+                alert('Copied!');
+            })
+            .catch(err => {
+                console.error('Could not copy text: ', err);
+            });
         }
     });
 
@@ -8755,5 +13153,33 @@ $(document).ready(function() {
             missingCodes,
             spareCodes
         };
+    };
+
+    function generateMissingCodesWithoutRarity(inputText) {
+        // Split input by commas to get an array of codes
+        const codes = inputText.split(',').map(code => {
+            const trimmedCode = code.trim().toLowerCase();
+            const match = trimmedCode.match(/^(.*?)(\(\d+\))?$/); // Match code with optional (number)
+            if (match) {
+                const baseCode = match[1].trim().toLowerCase();
+                const numberPart = match[2] || ''; // Get (number) or an empty string if not present
+                return { original: trimmedCode, baseCode: baseCode, numberPart: numberPart };
+            } else {
+                return { original: trimmedCode, baseCode: trimmedCode, numberPart: '' }; // Fallback
+            }
+        });
+
+        // Array to store missing codes
+        const missingCodes = [];
+
+        // Check each code from input against the complete list
+        stickersChecklistWithoutRarity.forEach(item => {
+            const found = codes.find(code => code.baseCode === item.code.toLocaleLowerCase());
+            if (!found) {
+                missingCodes.push(item.code);
+            }
+        });
+
+        return missingCodes;
     };
 });
