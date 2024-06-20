@@ -8733,12 +8733,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "GER-SP-s",
-        "title": "Leroy Sané",
-        "section": "Group A",
-        "type": "gold signature"
-    },
-    {
         "code": "GER-TOP1",
         "title": "Thomas Müller",
         "section": "Group A",
@@ -8761,12 +8755,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Scott McTominay",
         "section": "Group A",
         "type": "gold"
-    },
-    {
-        "code": "SCO-SP-s",
-        "title": "Scott McTominay",
-        "section": "Group A",
-        "type": "gold signature"
     },
     {
         "code": "SCO-TOP1",
@@ -8793,12 +8781,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "HUN-SP-s",
-        "title": "Willi Orbán",
-        "section": "Group A",
-        "type": "gold signature"
-    },
-    {
         "code": "HUN-TOP1",
         "title": "Martin Ádám",
         "section": "Group A",
@@ -8821,12 +8803,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Noah Okafor",
         "section": "Group A",
         "type": "gold"
-    },
-    {
-        "code": "SUI-SP-s",
-        "title": "Noah Okafor",
-        "section": "Group A",
-        "type": "gold signature"
     },
     {
         "code": "SUI-TOP1",
@@ -9417,12 +9393,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "ESP-SP-s",
-        "title": "Rodri",
-        "section": "Group B",
-        "type": "gold signature"
-    },
-    {
         "code": "ESP-TOP1",
         "title": "Ferran Torres",
         "section": "Group B",
@@ -9445,12 +9415,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Mateo Kovačić",
         "section": "Group B",
         "type": "gold"
-    },
-    {
-        "code": "CRO-SP-s",
-        "title": "Mateo Kovačić",
-        "section": "Group B",
-        "type": "gold signature"
     },
     {
         "code": "CRO-TOP1",
@@ -9477,12 +9441,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "ITA-SP-s",
-        "title": "Federico Chiesa",
-        "section": "Group B",
-        "type": "gold signature"
-    },
-    {
         "code": "ITA-TOP1",
         "title": "Ciro Immobile",
         "section": "Group B",
@@ -9505,12 +9463,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Elseid Hysaj",
         "section": "Group B",
         "type": "gold"
-    },
-    {
-        "code": "ALB-SP-s",
-        "title": "Elseid Hysaj",
-        "section": "Group B",
-        "type": "gold signature"
     },
     {
         "code": "ALB-TOP1",
@@ -10101,12 +10053,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "SVN-SP-s",
-        "title": "Benjamin Šeško",
-        "section": "Group C",
-        "type": "gold signature"
-    },
-    {
         "code": "SVN-TOP1",
         "title": "Žan Karnicnik",
         "section": "Group C",
@@ -10129,12 +10075,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Pierre-Emile Højbjerg",
         "section": "Group C",
         "type": "gold"
-    },
-    {
-        "code": "DEN-SP-s",
-        "title": "Pierre-Emile Højbjerg",
-        "section": "Group C",
-        "type": "gold signature"
     },
     {
         "code": "DEN-TOP1",
@@ -10161,12 +10101,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "SRB-SP-s",
-        "title": "Dušan Vlahović",
-        "section": "Group C",
-        "type": "gold signature"
-    },
-    {
         "code": "SRB-TOP1",
         "title": "Nikola Milenković",
         "section": "Group C",
@@ -10189,12 +10123,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Jude Bellingham",
         "section": "Group C",
         "type": "gold"
-    },
-    {
-        "code": "ENG-SP-s",
-        "title": "Jude Bellingham",
-        "section": "Group C",
-        "type": "gold signature"
     },
     {
         "code": "ENG-TOP1",
@@ -10791,12 +10719,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "NED-SP-s",
-        "title": "Cody Gakpo",
-        "section": "Group D",
-        "type": "gold signature"
-    },
-    {
         "code": "NED-TOP1",
         "title": "Frenkie de Jong",
         "section": "Group D",
@@ -10821,12 +10743,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "AUT-SP-s",
-        "title": "Marko Arnautović",
-        "section": "Group D",
-        "type": "gold signature"
-    },
-    {
         "code": "AUT-TOP1",
         "title": "Konrad Laimer",
         "section": "Group D",
@@ -10849,12 +10765,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Kingsley Coman",
         "section": "Group D",
         "type": "gold"
-    },
-    {
-        "code": "FRA-SP-s",
-        "title": "Kingsley Coman",
-        "section": "Group D",
-        "type": "gold signature"
     },
     {
         "code": "FRA-TOP1",
@@ -11499,12 +11409,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "BEL-SP-s",
-        "title": "Romelu Lukaku",
-        "section": "Group E",
-        "type": "gold signature"
-    },
-    {
         "code": "BEL-TOP1",
         "title": "Lois Openda",
         "section": "Group E",
@@ -11529,12 +11433,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "SVK-SP-s",
-        "title": "Stanislav Lobotka",
-        "section": "Group E",
-        "type": "gold signature"
-    },
-    {
         "code": "SVK-TOP1",
         "title": "Dávid Hancko",
         "section": "Group E",
@@ -11557,12 +11455,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Răzvan Marin",
         "section": "Group E",
         "type": "gold"
-    },
-    {
-        "code": "ROM-SP-s",
-        "title": "Răzvan Marin",
-        "section": "Group E",
-        "type": "gold signature"
     },
     {
         "code": "ROM-TOP1",
@@ -12219,12 +12111,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "TUR-SP-s",
-        "title": "Cengiz Ünder",
-        "section": "Group F",
-        "type": "gold signature"
-    },
-    {
         "code": "TUR-TOP1",
         "title": "Merih Demiral",
         "section": "Group F",
@@ -12261,12 +12147,6 @@ const stickersChecklistWithoutRarity = [
         "type": "gold"
     },
     {
-        "code": "POR-SP-s",
-        "title": "Bernardo Silva",
-        "section": "Group F",
-        "type": "gold signature"
-    },
-    {
         "code": "POR-TOP1",
         "title": "Bruno Fernandes",
         "section": "Group F",
@@ -12289,12 +12169,6 @@ const stickersChecklistWithoutRarity = [
         "title": "Patrik Schick",
         "section": "Group F",
         "type": "gold"
-    },
-    {
-        "code": "CZE-SP-s",
-        "title": "Patrik Schick",
-        "section": "Group F",
-        "type": "gold signature"
     },
     {
         "code": "CZE-TOP1",
@@ -13015,7 +12889,7 @@ $(document).ready(function() {
             // Using navigator clipboard API to copy text
             navigator.clipboard.writeText(missingCodesWithoutRarityOutput)
             .then(() => {;
-                alert('Copied!');
+                alert(`Copied, you are missing ${result.length} stickers!`);
             })
             .catch(err => {
                 console.error('Could not copy text: ', err);
