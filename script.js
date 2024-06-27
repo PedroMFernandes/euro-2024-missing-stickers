@@ -13007,7 +13007,7 @@ $(document).ready(function() {
         stickersChecklist.forEach(item => {
             const found = codes.find(code => code.baseCode === item.code.toLocaleLowerCase());
             if (!found) {
-                missingCodes.push(item.code);
+                missingCodes.push(item.code.toLocaleUpperCase());
             }
         });
 
@@ -13018,7 +13018,7 @@ $(document).ready(function() {
                 const number = parseInt(match[1], 10);
                 if (number >= 2) {
                     const newCode = `${code.baseCode}(${number - 1})`;
-                    spareCodes.push(generateWithNumber ? newCode : code.baseCode);
+                    spareCodes.push(generateWithNumber ? newCode.toLocaleUpperCase() : code.baseCode.toLocaleUpperCase());
                 }
             }
         });
